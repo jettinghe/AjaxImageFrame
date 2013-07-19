@@ -1,0 +1,3 @@
+backup code
+
+{{ $items->appends(array('keyword' => Input::get('keyword'), 'category' => Input::get('category'), 'city' => Input::get('city')))->links(); }}
